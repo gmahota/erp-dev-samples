@@ -42,7 +42,7 @@ namespace Primavera.RH.Funcionarios.UI
                     funcionario.Situacao = "001";
                     funcionario.Instrumento = "001";
                     funcionario.Estabelecimento = "001";
-
+                    
                     BSO.RecursosHumanos.Funcionarios.Actualiza(funcionario);
                     PSO.Dialogos.MostraAviso("Gravado Com Sucesso");
                 }
@@ -55,6 +55,11 @@ namespace Primavera.RH.Funcionarios.UI
                     StdPlatBS100.StdBSTipos.IconId.PRI_Exclama,
                     ex.Message);
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
